@@ -1,3 +1,4 @@
+app.use('/js', express.static(path.join(__dirname, 'public/main.js')))
 
 
 function add (num1, num2) {
