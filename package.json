@@ -1,5 +1,27 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "name": "deployment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CallCab8109/deploymentW6D3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CallCab8109/deploymentW6D3/issues"
+  },
+  "homepage": "https://github.com/CallCab8109/deploymentW6D3#readme",
+  "description": ""
 }
